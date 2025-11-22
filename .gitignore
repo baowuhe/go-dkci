@@ -1,0 +1,44 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go tool, specifically from `go build -o`
+*.out
+
+doc/
+
+# Directory for compiled Go packages and binaries
+# For projects with a single module, this is usually "bin/"
+# For projects with multiple modules, this is usually "$GOPATH/pkg/"
+# or "$GOPATH/bin/"
+bin/
+pkg/
+
+# Endpoints for Go modules
+# This can be ignored if you are using Go modules
+# and don't want to commit your vendor directory
+vendor/
+
+# Editor-specific files
+.idea/
+.vscode/
+.DS_Store
+
+# Other
+build/
+*.tar
+*.rar
+*.zip
+*.7z
+*.pdf
+*.doc
+*.docx
+*.xls
+
+go-dkci
+
